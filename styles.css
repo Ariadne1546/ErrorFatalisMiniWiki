@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: rgb(167, 48, 18);
+}
+
+.Leyenda {
+    text-align: end;
+    color: rgb(167, 48, 18);
+}
+
+.box {
+    display: inline;
+    text-align: center;
+    background: rgb(59, 59, 59);
+    padding: 30px;
+    margin: 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    width: 100cqb;
+}
+
+.Fatalis_imagen{
+    width: 50%;
+}
+
+.video {
+    width: 90%;
+}
+
+@media screen and (max-width:640px) {
+    body {
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+    }
+}
